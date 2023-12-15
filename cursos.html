@@ -11,98 +11,105 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <header class= fixed-top>
-        <div class="px-3 py-2 bg-primary border-bottom">
-          <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-              <a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                <img src="imgs/Vamos a la U.png" alt="Vamos a la U Logo" class="logo-img">
-                <span class="fs-4 espacioizq"></span>
-              </a>
-              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
 
-                <li>
-                  <a href="index.html" class="nav-link text-primary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
-                    </svg>
-                    Inicio
-                  </a>
-                </li>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="text-end">
+        <a type="button" class="btn btn-light text-dark me-2" href="ingresar.html">Iniciar sesión</a>
+        <a type="button" class="btn btn-primary" href="cursos.html">Matricular</a>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="https://www.facebook.com/profile.php?id=100077892246953&mibextid=ZbWKwL" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://instagram.com/vamos.a.la.u" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="linkedin" target="_blank"><i class="bi bi-google"></i></i></i></a>
+      </div>
+    </div>
+  </section>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-primary-gil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
-                    </svg>
-                    Temas
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="razonamiento-logico-matematico.html">Razonamiento Lógico-Matemático</a></li>
-                    <li><a class="dropdown-item" href="razonamiento-linguistico-verbal.html">Razonamiento Linguístico-Verbal</a></li>
-                    <li><a class="dropdown-item" href="orientacion vocacional.html">Orientación vocacional</a></li>
-                  </ul>
-                </li>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
 
-                <li>
-                  <a href="quiz diagnostico.html" class="nav-link text-primary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
-                        <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
-                    </svg>
-                    Quiz diagnóstico
-                  </a>
-                </li>
+      <!-- <h1 class="logo"><a href="index.html"><img src="assets/img/Vamos a la U.png" alt="Vamos a la U Logo" class="logo-img"></a></h1>-->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="imgs/Vamos a la U.png" alt=""></a>
 
-                <li>
-                  <a href="cursos.html" class="nav-link text-secondary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
-                        <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
-                        <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
-                    </svg>
-                    Cursos
-                  </a>
-                </li>
+      <nav id="navbar" class="navbar">
+        <ul>
 
-                <li>
-                  <a href="ingresar.html" class="nav-link text-primary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                      </svg>
-                    Ingresar
-                  </a>
-                </li>
+          <li>
+            <a href="index.html" class="nav-link text-primary-gil scrollto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
+              </svg>
+              Inicio
+            </a>
+          </li>
 
-              </ul>
-            </div>
-          </div>
-        </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-primary-gil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
+              </svg>
+              Temas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="razonamiento-logico-matematico.html">Razonamiento Lógico-Matemático</a></li>
+              <li><a class="dropdown-item" href="razonamiento-linguistico-verbal.html">Razonamiento Linguístico-Verbal</a></li>
+              <li><a class="dropdown-item" href="orientacion vocacional.html">Orientación vocacional</a></li>
+            </ul>
+          </li>
 
-        <!-- Navbar singup -->
-        <div class="px-3 py-2 border-bottom mb-3" style="background-color: rgba(255, 255, 255, 0.75);">
-          <div class="container d-flex flex-wrap justify-content-center">
-            <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-              <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
-            </form>
-    
-            <div class="text-end">
-              <a type="button" class="btn btn-light text-dark me-2" href="ingresar.html">Iniciar sesión</a>
-              <a type="button" class="btn btn-primary" href="cursos.html">Matricular</a>
-            </div>
-          </div>
-        </div>
-    </header>
+          <li>
+            <a href="quiz diagnostico.html" class="nav-link text-primary-gil scrollto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+                  <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+              </svg>
+              Quiz diagnóstico
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="nav-link text-secondary-gil scrollto active">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
+                  <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                  <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+              </svg>
+              Cursos
+            </a>
+          </li>
+
+          <li>
+            <a href="ingresar.html" class="nav-link text-primary-gil scrollto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg>
+              Ingresar
+            </a>
+          </li>
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+
 
 
 
 
 
     <!-- Header de la tienda -->
-    <div style="padding-top: 150px; padding-bottom: 10px;">
-      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <div style="padding-top: 1%;">
+      <div class="pricing-header p-3 pb-md-2 mx-auto text-center">
         <h1 class="display-4 fw-normal text-body-emphasis">Paquetes</h1>
         <p class="fs-5 text-body-secondary">Acá puede encontrar las distintas modalidades que ofrecemos y a las que puede acceder, son pensadas en las necesidades de todos los estudiantes.</p>
       </div>
@@ -272,7 +279,7 @@
                 <button type="button" class="btn-close equis-modal" data-bs-dismiss="modal" aria-label="Close"></button>
                 <h2 class="titulo-modal">Formulario de pago</h2>
               </div>
-              <p class="lead">A continuación se muestra un formulario de ejemplo creado completamente con los controles de formulario de Bootstrap. Cada grupo de formularios requerido tiene un estado de validación que se puede activar al intentar enviar el formulario sin completarlo.</p>
+              <p class="lead" style="font-size: medium;">A continuación se muestra un formulario que le permitirá obtener el paquete de su elección. Debe proporcionar algunos datos básicos para completar la matricula, garantizando que sus datos serán tratados de manera confidencial. Además, tendrá la opción de finalizar la transacción a través de diversas modalidades, incluyendo depósito bancario, transferencia, SINPE móvil, tarjeta de crédito, tarjeta de débito o mediante PayPal.</p>
             </div>
 
           <div class="modal-body">
@@ -280,7 +287,7 @@
                 <div class="col-md-5 col-lg-4 order-md-last">
                 <h4 class="d-flex justify-content-between align-items-center mb-3">
                     <span class="text-primary">Carrito</span>
-                    <span class="badge bg-primary rounded-pill">1</span>
+                    <span class="badge bg-primary rounded-pill"><i class="bi bi-cart3" style="font-size: 1.2em;"></i></span>
                 </h4>
                 <ul class="list-group mb-3">
                     <li class="list-group-item d-flex justify-content-between lh-sm border-primary">
@@ -304,13 +311,6 @@
                     </div>
                     <span class="text-body-secondary">₡55.000</span>
                     </li>
-                    <!--<li class="list-group-item d-flex justify-content-between bg-body-tertiary">
-                    <div class="text-success">
-                        <h6 class="my-0">Código promocional</h6>
-                        <small>EXAMPLECODE</small>
-                    </div>
-                    <span class="text-success">−₡5.000</span>
-                    </li>-->
                     <li class="list-group-item d-flex justify-content-between">
                     <span>Total (CRC)</span>
                     <strong>₡100.000</strong>
@@ -319,7 +319,7 @@
         
                 <form class="card p-2 border-primary">
                     <div class="input-group">
-                    <input type="text" class="form-control border-primary" id="codigoPromocional" placeholder="Código promocional">
+                    <input type="text" class="form-control border-primary" id="codigoPromocional" placeholder="Código promocional" autocomplete="off">
                     <button type="button" class="btn btn-secondary border-primary" id="btnCanjear">Canjear</button>
                     </div>
                     <div id="codigoPromocionalError" class="text-danger text-center" style="display: none;">
@@ -329,11 +329,11 @@
                 </div>
                 <div class="col-md-7 col-lg-8">
                 <h4 class="mb-3">Datos requeridos</h4>
-                <form class="needs-validation" novalidate>
+                <form class="needs-validation" novalidate action="pedidos.php" method="post">
                     <div class="row g-3">
                     <div class="col-sm-6">
                         <label for="firstName" class="form-label">Nombres</label>
-                        <input type="text" class="form-control border-primary" id="firstName" placeholder="" value="" required>
+                        <input type="text" class="form-control border-primary" id="firstName" name="firstName" placeholder="" value="" autocomplete="off" required>
                         <div class="invalid-feedback">
                         Se requiere un nombre válido.
                         </div>
@@ -341,17 +341,25 @@
         
                     <div class="col-sm-6">
                         <label for="lastName" class="form-label">Apellidos</label>
-                        <input type="text" class="form-control border-primary" id="lastName" placeholder="" value="" required>
+                        <input type="text" class="form-control border-primary" id="lastName" name="lastName" placeholder="" value="" autocomplete="off" required>
                         <div class="invalid-feedback">
                         Se requiere un apellido válido.
                         </div>
                     </div>
         
-                    <div class="col-12">
+                    <div class="col-sm-6">
+                        <label for="phonenumber" class="form-label">Número telefónico</label>
+                        <input type="tel" class="form-control border-primary" id="phonenumber" name="phonenumber" placeholder="" value="" pattern="[0-9]+" autocomplete="off" required>
+                        <div class="invalid-feedback">
+                        Se requiere un número telefónico válido.
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6">
                         <label for="username" class="form-label">Nombre de usuario</label>
                         <div class="input-group has-validation">
                         <span class="input-group-text border-primary">@</span>
-                        <input type="text" class="form-control border-primary" id="username" placeholder="Nombre de usuario" required>
+                        <input type="text" class="form-control border-primary" id="username" name="username"placeholder="Nombre de usuario" autocomplete="off" required>
                         <div class="invalid-feedback">
                             Se requiere su nombre de usuario.
                         </div>
@@ -360,28 +368,15 @@
         
                     <div class="col-12">
                         <label for="email" class="form-label">Email <span class="text-body-secondary">(Opcional)</span></label>
-                        <input type="email" class="form-control border-primary" id="email" placeholder="correo@ejemplo.com">
+                        <input type="email" class="form-control border-primary" id="email" name="email" placeholder="correo@ejemplo.com" autocomplete="on">
                         <div class="invalid-feedback">
                         Ingrese una dirección de correo electrónico válida para recibir actualizaciones de envío.
                         </div>
                     </div>
         
-                    <div class="col-12">
-                        <label for="address" class="form-label">Dirección</label>
-                        <input type="text" class="form-control border-primary" id="address" placeholder="Tu dirección" required>
-                        <div class="invalid-feedback">
-                        Por favor introduzca su dirección de envío.
-                        </div>
-                    </div>
-        
-                    <div class="col-12">
-                        <label for="address2" class="form-label">Dirección 2 <span class="text-body-secondary">(Opcional)</span></label>
-                        <input type="text" class="form-control border-primary" id="address2" placeholder="Casa o apartamento">
-                    </div>
-        
                     <div class="col-md-5">
-                        <label for="country" class="form-label">Provincia</label>
-                        <select class="form-select border-primary" id="country" required>
+                        <label for="province" class="form-label">Provincia</label>
+                        <select class="form-select border-primary" id="province" name="province" required>
                         <option value="">Elegir...</option>
                         <option>San José</option>
                         <option>Alajuela</option>
@@ -397,8 +392,8 @@
                     </div>
         
                     <div class="col-md-4">
-                        <label for="state" class="form-label">Cantón</label>
-                        <select class="form-select border-primary" id="state" required>
+                        <label for="canton" class="form-label">Cantón</label>
+                        <select class="form-select border-primary" id="canton" name="canton" required>
                         <option value="">Elegir...</option>
                         <option>California</option>
                         </select>
@@ -408,49 +403,45 @@
                     </div>
         
                     <div class="col-md-3">
-                        <label for="zip" class="form-label">Distrito</label>
-                        <input type="text" class="form-control border-primary" id="zip" placeholder="" required>
+                        <label for="district" class="form-label">Distrito</label>
+                        <input type="text" class="form-control border-primary" id="district" name="district" placeholder="" required>
                         <div class="invalid-feedback">
                         Se requiere un distrito.
                         </div>
                     </div>
+        
+                    <div class="col-12">
+                        <label for="address" class="form-label">Dirección</label>
+                        <input type="text" class="form-control border-primary" id="address" name="address" placeholder="Tu dirección" autocomplete="off" required>
+                        <div class="invalid-feedback">
+                        Por favor introduzca su dirección de envío.
+                        </div>
                     </div>
-        
-                    <hr class="my-4  border-primary">
-        
-                    <div class="form-check">
-                    <input type="checkbox" class="form-check-input border-primary" id="same-address">
-                    <label class="form-check-label" for="same-address">La dirección de envío es la misma que mi dirección de facturación</label>
                     </div>
-        
-                    <div class="form-check">
-                    <input type="checkbox" class="form-check-input border-primary" id="save-info">
-                    <label class="form-check-label" for="save-info">Guarda esta información para la próxima vez</label>
-                    </div>
-        
+
                     <hr class="my-4 border-primary">
         
                     <h4 class="mb-3">Pago</h4>
         
                     <div class="my-3">
                     <div class="form-check">
-                        <input id="creditdebit" name="paymentMethod" type="radio" class="form-check-input border-primary" checked required>
-                        <label class="form-check-label" for="creditdebit">Tarjeta de crédito o débito</label>
+                        <input type="radio" id="creditdebit" name="paymentMethod" class="form-check-input border-primary" checked required>
+                        <label class="form-check-label" for="creditdebit"><i class="bi bi-credit-card" style="font-size: 1.6em;"></i>&nbsp;&nbsp;Tarjeta de crédito o débito</label>
                     </div>
                     <div class="form-check">
-                        <input id="sinpe" name="paymentMethod" type="radio" class="form-check-input border-primary" required>
-                        <label class="form-check-label" for="sinpe">Sinpe, depósito o transferencia</label>
+                        <input type="radio" id="sinpe" name="paymentMethod" class="form-check-input border-primary" required>
+                        <label class="form-check-label" for="sinpe"><i class="bi bi-cash-coin" style="font-size: 1.6em;"></i>&nbsp;&nbsp;Sinpe, depósito o transferencia</label>
                     </div>
                     <div class="form-check">
-                        <input id="paypal" name="paymentMethod" type="radio" class="form-check-input border-primary" required>
-                        <label class="form-check-label" for="paypal">PayPal</label>
+                        <input type="radio" id="paypal" name="paymentMethod" class="form-check-input border-primary" required>
+                        <label class="form-check-label" for="paypal"><i class="bi bi-paypal" style="font-size: 1.6em;"></i>&nbsp;&nbsp;PayPal</label>
                     </div>
                     </div>
 
                     <div class="row gy-3" id="tarjetaPayment">
                     <div class="col-md-6">
                         <label for="cc-name" class="form-label">Nombre en la tarjeta</label>
-                        <input type="text" class="form-control border-primary" id="cc-name" placeholder="" required>
+                        <input type="text" class="form-control border-primary" id="cc-name" name="cc-name" placeholder="" autocomplete="off" required>
                         <small class="text-body-secondary">Nombre completo como se muestra en la tarjeta</small>
                         <div class="invalid-feedback">
                         Se requiere el nombre en la tarjeta
@@ -459,7 +450,7 @@
         
                     <div class="col-md-6">
                         <label for="cc-number" class="form-label">Número de tarjeta de crédito</label>
-                        <input type="text" class="form-control border-primary" id="cc-number" placeholder="" required>
+                        <input type="text" class="form-control border-primary" id="cc-number" name="cc-number" placeholder="" autocomplete="off" required>
                         <div class="invalid-feedback">
                         Se requiere número de tarjeta de crédito
                         </div>
@@ -467,7 +458,7 @@
         
                     <div class="col-md-3">
                         <label for="cc-expiration" class="form-label">Vencimiento</label>
-                        <input type="text" class="form-control border-primary" id="cc-expiration" placeholder="" required>
+                        <input type="text" class="form-control border-primary" id="cc-expiration" name="cc-expiration" placeholder="" required>
                         <div class="invalid-feedback">
                         Fecha de vencimiento requerida
                         </div>
@@ -475,7 +466,7 @@
         
                     <div class="col-md-3">
                         <label for="cc-cvv" class="form-label">CVV</label>
-                        <input type="text" class="form-control border-primary" id="cc-cvv" placeholder="" required>
+                        <input type="text" class="form-control border-primary" id="cc-cvv" name="cc-cvv" placeholder="" required>
                         <div class="invalid-feedback">
                         Se requiere código de seguridad
                         </div>
@@ -486,38 +477,41 @@
                     <div id="sinpePayment" style="display: none;">
                       <div class="mb-3">
                           <label for="paymentFile" class="form-label">Cargar archivo (imagen, Word, PDF)</label>
-                          <input type="file" class="form-control border-primary" id="paymentFile" accept=".jpg, .jpeg, .png, .doc, .docx, .pdf">
+                          <input type="file" class="form-control border-primary" id="paymentFile" name="paymentFile" accept=".jpg, .jpeg, .png, .doc, .docx, .pdf">
                       </div>
                     </div>
 
                     <!-- Elementos para la opción de pago de PayPal (ocultos inicialmente) -->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <div id="paypalPayment" style="display: none;">
-                      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="FGNUW33PUUPMA">
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 25%;">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
-                      </form>
+                    
+                        <input type="hidden" name="cmd" value="_s-xclick" />
+                        <input type="hidden" name="hosted_button_id" value="XS2PV733EUNH6" />
+                        <input type="hidden" name="currency_code" value="USD" />
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                      
                     </div>
+
+                    <hr class="my-4">
+
+                    <button type="submit" class="btn btn-lg btn-primary" style="width: 49%;">Continuar</button>
+                    <button type="button" class="btn btn-lg btn-secondary" style="width: 49%;" data-bs-dismiss="modal">Cerrar</button>
+
+                    </form>
 
                 </form>
                 </div>
             </div>
-          <div>
 
-            <div class="modal-footer flex-column align-items-stretch w-100 gap-2 pb-3 border-top-0">
-              <div class="modal-header border-bottom-0 d-flex justify-content-between">
-                <button type="submit" class="btn btn-lg btn-primary" style="width: 49%;">Continuar</button>
-                <button type="button" class="btn btn-lg btn-secondary" style="width: 49%;" data-bs-dismiss="modal">Cerrar</button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
     </div>
     </div>
-  
+
+
+
+
 
 
 
@@ -525,7 +519,7 @@
 
     <!-- Botón flotante de WhatsApp -->
     <div id="whatsapp-float" class="whatsapp-float">
-        <a id="whatsapp-link" class="whatsapp-icon" href="wa.me/50684703754" target="_blank">
+        <a id="whatsapp-link" class="whatsapp-icon" href="https://wa.me/50684703754" target="_blank">
             <img src="imgs/whatsapp-icon.png" alt="WhatsApp">
         </a>
     </div>
@@ -594,11 +588,11 @@
 
 
     <!-- Pie depágina -->
-    <footer class="bg-primary text-center text-white">
+    <footer class="bg-primary text-center text-white" style="margin-top: auto!important;">
         <!-- Grid container -->
-        <div class="container p-4 pb-0">
+        <div class="container p-1 pb-0">
           <!-- Section: Social media -->
-          <section class="mb-4">
+          <section class="mb-1" style="padding: 1% 1%;">
             <!-- Facebook -->
             <a
               class="btn text-white btn-floating m-1"
@@ -657,14 +651,17 @@
         <!-- Grid container -->
       
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center" style="background-color: rgba(0, 0, 0, 0.2); padding: 1% 1%;">
           © 2023 Vamos a la U. Todos los derechos reservados.
         </div>
         <!-- Copyright -->
-    </footer>
+      </footer>
    
 <!-- Vincula la biblioteca jQuery -->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- Vincula la biblioteca aos -->
+<script src="aos/aos.js"></script>
 
 <!-- Vincula el archivo JavaScript de Bootstrap -->
 <script src="js/bootstrap.min.js"></script>

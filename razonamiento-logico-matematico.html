@@ -11,88 +11,94 @@
 </head>
 
 <body>
-    <header class= fixed-top>
-        <div class="px-3 py-2 bg-primary border-bottom">
-          <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-              <a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                <img src="imgs/Vamos a la U.png" alt="Vamos a la U Logo" class="logo-img">
-                <span class="fs-4 espacioizq"></span>
-              </a>
-              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
 
-                <li>
-                  <a href="index.html" class="nav-link text-primary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
-                    </svg>
-                    Inicio
-                  </a>
-                </li>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="text-end">
+        <a type="button" class="btn btn-light text-dark me-2" href="ingresar.html">Iniciar sesión</a>
+        <a type="button" class="btn btn-primary" href="cursos.html">Matricular</a>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="https://www.facebook.com/profile.php?id=100077892246953&mibextid=ZbWKwL" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://instagram.com/vamos.a.la.u" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="linkedin" target="_blank"><i class="bi bi-google"></i></i></i></a>
+      </div>
+    </div>
+  </section>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-secondary-gil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
-                    </svg>
-                    Temas
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="razonamiento-logico-matematico.html">Razonamiento Lógico-Matemático</a></li>
-                    <li><a class="dropdown-item" href="razonamiento-linguistico-verbal.html">Razonamiento Linguístico-Verbal</a></li>
-                    <li><a class="dropdown-item" href="orientacion vocacional.html">Orientación vocacional</a></li>
-                  </ul>
-                </li>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
 
-                <li>
-                  <a href="quiz diagnostico.html" class="nav-link text-primary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
-                        <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
-                    </svg>
-                    Quiz diagnóstico
-                  </a>
-                </li>
+      <!-- <h1 class="logo"><a href="index.html"><img src="assets/img/Vamos a la U.png" alt="Vamos a la U Logo" class="logo-img"></a></h1>-->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="imgs/Vamos a la U.png" alt=""></a>
 
-                <li>
-                  <a href="cursos.html" class="nav-link text-primary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
-                        <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
-                        <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
-                    </svg>
-                    Cursos
-                  </a>
-                </li>
+      <nav id="navbar" class="navbar">
+        <ul>
 
-                <li>
-                  <a href="ingresar.html" class="nav-link text-primary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                      </svg>
-                    Ingresar
-                  </a>
-                </li>
+          <li>
+            <a href="index.html" class="nav-link text-primary-gil scrollto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
+              </svg>
+              Inicio
+            </a>
+          </li>
 
-              </ul>
-            </div>
-          </div>
-        </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-secondary-gil active" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
+              </svg>
+              Temas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Razonamiento Lógico-Matemático</a></li>
+              <li><a class="dropdown-item" href="razonamiento-linguistico-verbal.html">Razonamiento Linguístico-Verbal</a></li>
+              <li><a class="dropdown-item" href="orientacion vocacional.html">Orientación vocacional</a></li>
+            </ul>
+          </li>
 
-        <div class="px-3 py-2 border-bottom mb-3" style="background-color: rgba(255, 255, 255, 0.75);">
-          <div class="container d-flex flex-wrap justify-content-center">
-            <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-              <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
-            </form>
-    
-            <div class="text-end">
-              <a type="button" class="btn btn-light text-dark me-2" href="ingresar.html">Iniciar sesión</a>
-              <a type="button" class="btn btn-primary" href="cursos.html">Matricular</a>
-            </div>
-          </div>
-        </div>
-    </header>
+          <li>
+            <a href="quiz diagnostico.html" class="nav-link text-primary-gil scrollto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+                  <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+              </svg>
+              Quiz diagnóstico
+            </a>
+          </li>
+
+          <li>
+            <a href="cursos.html" class="nav-link text-primary-gil scrollto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
+                  <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                  <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+              </svg>
+              Cursos
+            </a>
+          </li>
+
+          <li>
+            <a href="ingresar.html" class="nav-link text-primary-gil scrollto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg>
+              Ingresar
+            </a>
+          </li>
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
 
 
 
@@ -138,7 +144,7 @@
 
     <!-- Botón flotante de WhatsApp -->
     <div id="whatsapp-float" class="whatsapp-float">
-        <a id="whatsapp-link" class="whatsapp-icon" href="wa.me/50684703754" target="_blank">
+        <a id="whatsapp-link" class="whatsapp-icon" href="https://wa.me/50684703754" target="_blank">
             <img src="imgs/whatsapp-icon.png" alt="WhatsApp">
         </a>
     </div>
@@ -207,11 +213,11 @@
 
 
     <!-- Pie depágina -->
-    <footer class="bg-primary text-center text-white">
+    <footer class="bg-primary text-center text-white" style="margin-top: auto!important;">
         <!-- Grid container -->
-        <div class="container p-4 pb-0">
+        <div class="container p-1 pb-0">
           <!-- Section: Social media -->
-          <section class="mb-4">
+          <section class="mb-1" style="padding: 1% 1%;">
             <!-- Facebook -->
             <a
               class="btn text-white btn-floating m-1"
@@ -270,16 +276,22 @@
         <!-- Grid container -->
       
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center" style="background-color: rgba(0, 0, 0, 0.2); padding: 1% 1%;">
           © 2023 Vamos a la U. Todos los derechos reservados.
         </div>
         <!-- Copyright -->
       </footer>
    
 <!-- Vincula la biblioteca jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- Vincula la biblioteca aos -->
+<script src="aos/aos.js"></script>
 
 <!-- Vincula el archivo JavaScript de Bootstrap -->
 <script src="js/bootstrap.min.js"></script>
+
+<!-- Vincula el archivo script.js -->
+<script src="script.js"></script>
 </body>
 </html>

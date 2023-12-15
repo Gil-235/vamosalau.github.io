@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="aos/aos.css">
     <link rel="stylesheet" href="css/estilachos.css">
@@ -12,98 +14,107 @@
 </head>
 
 <body>
-    <header class= fixed-top>
-        <div class="px-3 py-2 bg-primary border-bottom">
-          <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-              <a href="#" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                <img src="imgs/Vamos a la U.png" alt="Vamos a la U Logo" class="logo-img">
-                <span class="fs-4 espacioizq"></span>
-              </a>
-              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
 
-                <li>
-                  <a href="#" class="nav-link text-secondary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
-                    </svg>
-                    Inicio
-                  </a>
-                </li>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="text-end">
+        <a type="button" class="btn btn-light text-dark me-2" href="ingresar.html">Iniciar sesión</a>
+        <a type="button" class="btn btn-primary" href="cursos.html">Matricular</a>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="https://www.facebook.com/profile.php?id=100077892246953&mibextid=ZbWKwL" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://instagram.com/vamos.a.la.u" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="linkedin" target="_blank"><i class="bi bi-google"></i></i></i></a>
+      </div>
+    </div>
+  </section>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-primary-gil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
-                    </svg>
-                    Temas
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="razonamiento-logico-matematico.html">Razonamiento Lógico-Matemático</a></li>
-                    <li><a class="dropdown-item" href="razonamiento-linguistico-verbal.html">Razonamiento Linguístico-Verbal</a></li>
-                    <li><a class="dropdown-item" href="orientacion vocacional.html">Orientación vocacional</a></li>
-                  </ul>
-                </li>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
 
-                <li>
-                  <a href="quiz diagnostico.html" class="nav-link text-primary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
-                        <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
-                    </svg>
-                    Quiz diagnóstico
-                  </a>
-                </li>
+      <!-- <h1 class="logo"><a href="index.html"><img src="assets/img/Vamos a la U.png" alt="Vamos a la U Logo" class="logo-img"></a></h1>-->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="imgs/Vamos a la U.png" alt=""></a>
 
-                <li>
-                  <a href="cursos.html" class="nav-link text-primary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
-                        <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
-                        <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
-                    </svg>
-                    Cursos
-                  </a>
-                </li>
+      <nav id="navbar" class="navbar">
+        <ul>
 
-                <li>
-                  <a href="ingresar.html" class="nav-link text-primary-gil">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                      </svg>
-                    Ingresar
-                  </a>
-                </li>
+          <li>
+            <a href="#" class="nav-link text-secondary-gil scrollto active">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
+              </svg>
+              Inicio
+            </a>
+          </li>
 
-              </ul>
-            </div>
-          </div>
-        </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-primary-gil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
+              </svg>
+              Temas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="razonamiento-logico-matematico.html">Razonamiento Lógico-Matemático</a></li>
+              <li><a class="dropdown-item" href="razonamiento-linguistico-verbal.html">Razonamiento Linguístico-Verbal</a></li>
+              <li><a class="dropdown-item" href="orientacion vocacional.html">Orientación vocacional</a></li>
+            </ul>
+          </li>
 
-        <div class="px-3 py-2 border-bottom mb-3" style="background-color: rgba(255, 255, 255, 0.75);">
-          <div class="container d-flex flex-wrap justify-content-center">
-            <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-              <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
-            </form>
-    
-            <div class="text-end">
-              <a type="button" class="btn btn-light text-dark me-2" href="ingresar.html">Iniciar sesión</a>
-              <a type="button" class="btn btn-primary" href="cursos.html">Matricular</a>
-            </div>
-          </div>
-        </div>
-    </header>
+          <li>
+            <a href="quiz diagnostico.html" class="nav-link text-primary-gil scrollto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+                  <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+              </svg>
+              Quiz diagnóstico
+            </a>
+          </li>
+
+          <li>
+            <a href="cursos.html" class="nav-link text-primary-gil scrollto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
+                  <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                  <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+              </svg>
+              Cursos
+            </a>
+          </li>
+
+          <li>
+            <a href="ingresar.html" class="nav-link text-primary-gil scrollto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg>
+              Ingresar
+            </a>
+          </li>
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="hero d-flex align-items-center">
       <div class="container">
         <div class="row justify-content-between gy-5">
-          <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-center text-center text-lg-start" style="margin-left: 10%;">
-            <h2 style="font-size: 250%; font-weight: bold;" class="shadow-text" data-aos="fade-up">¡Prepárate para el Éxito<br>en tu Examen de Admisión!</h2>
-            <p data-aos="fade-up" data-aos-delay="100">En "Vamos a la U" te brindamos las herramientas y recursos necesarios para superar con éxito tu examen de admisión universitaria. Nuestro equipo de expertos está comprometido en ayudarte a alcanzar tus metas académicas.</p>
-            <p data-aos="fade-up" data-aos-delay="100">Explora nuestros temas, realiza prácticas y accede a recursos valiosos para fortalecer tus conocimientos y habilidades.</p>
-            <div class="d-flex gap-2 justify-content-center py-1" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-center text-center text-lg-start">
+            <div data-aos="fade-in">
+              <h1 class="shadow-text" data-aos="fade-up"><i class="shadow-text">V</i>amos a la <i class="shadow-text" style="color: orange;">U</i></h1>
+              <p data-aos="fade-up" data-aos-delay="100">Somos <span class="typed" data-typed-items="Experiencia, Entrega, Entusiasmo, Dedicación, Compromiso, Accesibilidad, Innovación, Garantía, Seguridad"></span></p>
+            </div>
+            <h2 style="font-size: 125%;font-weight: bold;" class="text-center" data-aos="fade-up" data-aos-delay="200">¡Prepárate para el Éxito en tu Examen de Admisión!</h2>
+            <h2 style="font-size: 125%;" class="text-center" data-aos="fade-up" data-aos-delay="300">Participa de nuestras clases, explora nuestros temas, realiza prácticas y accede a recursos valiosos para fortalecer tus conocimientos y habilidades.</h2>
+            <div class="d-flex justify-content-center my-4" data-aos="fade-up" data-aos-delay="400">
               <a class="custom-button-qm" href="cursos.html" type="button">¡Quiero matricular!</a>
             </div>
           </div>
@@ -117,57 +128,45 @@
 
 
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Si matriculas podrás obtener ======= -->
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Si matriculas podrás obtener</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>En "Vamos a la U" te brindamos las herramientas y recursos necesarios para superar con éxito tu examen de admisión universitaria. Nuestro equipo de expertos está comprometido en ayudarte a alcanzar tus metas académicas.</p>
         </div>
 
         <div class="row">
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
-                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
-              </svg>
-              <h4><a>Curso completo</a></h4>
-              <p>Abordaremos las dos áreas de razonamiento: matemático y verbal.</p>
+              <div class="icon"><i class="bi bi-pencil-square"></i></div>
+              <h4 class="title"><a>Curso completo</a></h4>
+              <p class="description">Abordaremos las dos áreas de razonamiento: matemático y verbal.</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M14 9.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm-6 5.7c0 .8.8.8.8.8h6.4s.8 0 .8-.8-.8-3.2-4-3.2-4 2.4-4 3.2Z"/>
-                <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h5.243c.122-.326.295-.668.526-1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v7.81c.353.23.656.496.91.783.059-.187.09-.386.09-.593V4a2 2 0 0 0-2-2H2Z"/>
-              </svg>
-              <h4><a>Profesores expertos</a></h4>
-              <p>Profesionales en el área y con amplia experiencia en el tema.</p>
+              <div class="icon"><i class="bi bi-person-video3"></i></div>
+              <h4 class="title"><a>Profesores expertos</a></h4>
+              <p class="description">Profesionales en el área y con amplia experiencia en el tema.</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="m.5 3 .04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14H9v-1H2.826a1 1 0 0 1-.995-.91l-.637-7A1 1 0 0 1 2.19 4h11.62a1 1 0 0 1 .996 1.09L14.54 8h1.005l.256-2.819A2 2 0 0 0 13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2zm5.672-1a1 1 0 0 1 .707.293L7.586 3H2.19c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672z"/>
-                <path d="M15.854 10.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.707 0l-1.5-1.5a.5.5 0 0 1 .707-.708l1.146 1.147 2.646-2.647a.5.5 0 0 1 .708 0z"/>
-              </svg>
-              <h4><a>Recursos de práctica</a></h4>
-              <p>Se te hará llegar el libro físico así como acceso al material digital.</p>
+              <div class="icon"><i class="bi bi-folder-check"></i></div>
+              <h4 class="title"><a>Recursos de práctica</a></h4>
+              <p class="description">Se te hará llegar el libro físico así como acceso al material digital.</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
-                <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2Zm10.798 11c-.453-1.27-1.76-3-4.798-3-3.037 0-4.345 1.73-4.798 3H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-1.202Z"/>
-              </svg>
-              <h4><a>Clases telepresenciales</a></h4>
-              <p>Son impartidas en tiempo real mediante la plataforma de zoom.</p>
+              <div class="icon"><i class="bi bi-person-video"></i></div>
+              <h4 class="title"><a>Clases telepresenciales</a></h4>
+              <p class="description">Son impartidas en tiempo real mediante la plataforma de zoom.</p>
             </div>
           </div>
 
@@ -176,142 +175,85 @@
         <div class="row mt-4">
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M7.5 5.5a.5.5 0 0 0-1 0v.634l-.549-.317a.5.5 0 1 0-.5.866L6 7l-.549.317a.5.5 0 1 0 .5.866l.549-.317V8.5a.5.5 0 1 0 1 0v-.634l.549.317a.5.5 0 1 0 .5-.866L8 7l.549-.317a.5.5 0 1 0-.5-.866l-.549.317V5.5zm-2 4.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 2a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z"/>
-                <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
-              </svg>
-              <h4><a>Diagnóstico</a></h4>
-              <p>Al inicio del curso se realiza un quiz para valorar los preliminares.</p>
+              <div class="icon"><i class="bi bi-file-earmark-medical"></i></div>
+              <h4 class="title"><a>Diagnóstico</a></h4>
+              <p class="description">Al inicio del curso se realiza un quiz para valorar los preliminares.</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-                <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/>
-              </svg>
-              <h4><a>Orientación</a></h4>
-              <p>Se guiará durante todo el proceso de admisión al estudiante.</p>
+              <div class="icon"><i class="bi bi-compass"></i></div>
+              <h4 class="title"><a>Orientación</a></h4>
+              <p class="description">Se guiará durante todo el proceso de admisión al estudiante.</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
-              </svg>
-              <h4><a>Consejos</a></h4>
-              <p>Tanto para resolución de problemas como para gestión de emociones.</p>
+              <div class="icon"><i class="bi bi-lightbulb"></i></div>
+              <h4 class="title"><a>Consejos</a></h4>
+              <p class="description">Tanto para resolución de problemas como para gestión de emociones.</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                <path d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z"/>
-              </svg>
-              <h4><a>Simulacros</a></h4>
-              <p>Se realizan dos simulacros durante el curso para evaluar el avance.</p>
+              <div class="icon"><i class="bi bi-caret-right-square"></i></div>
+              <h4 class="title"><a>Simulacros</a></h4>
+              <p class="description">Se realizan dos simulacros durante el curso para evaluar el avance.</p>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- Fin Si matriculas podrás obtener -->
 
 
 
+    <!-- ======= Contador ======= -->
+    <section id="stats-counter" class="stats-counter">
+      <div class="container" data-aos="zoom-out">
 
-    <!-- Si matriculas podrás obtener -->
-    <div class="container px-4 py-5" id="icon-grid">
-        <h2 class="pb-2 border-bottom">Si matriculas podrás obtener</h2>
-    
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
-                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Curso completo</h3>
-              <p>Abordaremos las dos áreas de razonamiento: matemático y verbal.</p>
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <i class="bi bi-pencil-square"></i>
+              <span data-purecounter-start="0" data-purecounter-end="2820" data-purecounter-duration="2" class="purecounter"></span>
+              <p><strong>Ejercicios</strong> para practicar</p>
             </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M14 9.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm-6 5.7c0 .8.8.8.8.8h6.4s.8 0 .8-.8-.8-3.2-4-3.2-4 2.4-4 3.2Z"/>
-                <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h5.243c.122-.326.295-.668.526-1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v7.81c.353.23.656.496.91.783.059-.187.09-.386.09-.593V4a2 2 0 0 0-2-2H2Z"/>
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Profesores expertos</h3>
-              <p>Profesionales en el área y con amplia experiencia en el tema.</p>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <i class="bi bi-smartwatch"></i>
+              <span data-purecounter-start="0" data-purecounter-end="36" data-purecounter-duration="2" class="purecounter"></span>
+              <p><strong>Horas</strong> de clase</p>
             </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="m.5 3 .04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14H9v-1H2.826a1 1 0 0 1-.995-.91l-.637-7A1 1 0 0 1 2.19 4h11.62a1 1 0 0 1 .996 1.09L14.54 8h1.005l.256-2.819A2 2 0 0 0 13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2zm5.672-1a1 1 0 0 1 .707.293L7.586 3H2.19c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672z"/>
-                <path d="M15.854 10.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.707 0l-1.5-1.5a.5.5 0 0 1 .707-.708l1.146 1.147 2.646-2.647a.5.5 0 0 1 .708 0z"/>
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Recursos de práctica</h3>
-              <p>Se te hará llegar el libro físico así como acceso al material digital.</p>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <i class="bi bi-caret-right-square"></i>
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="2" class="purecounter"></span>
+              <p><strong>Exámenes</strong> simulacro mínimo</p>
             </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
-                <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2Zm10.798 11c-.453-1.27-1.76-3-4.798-3-3.037 0-4.345 1.73-4.798 3H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-1.202Z"/>
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Clases telepresenciales</h3>
-              <p>Son impartidas en tiempo real mediante la plataforma de zoom.</p>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <i class="bi bi-graph-up-arrow"></i>
+              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="2" class="purecounter"></span>
+              <p><strong>Años</strong> de experiencia</p>
             </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M7.5 5.5a.5.5 0 0 0-1 0v.634l-.549-.317a.5.5 0 1 0-.5.866L6 7l-.549.317a.5.5 0 1 0 .5.866l.549-.317V8.5a.5.5 0 1 0 1 0v-.634l.549.317a.5.5 0 1 0 .5-.866L8 7l.549-.317a.5.5 0 1 0-.5-.866l-.549.317V5.5zm-2 4.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 2a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z"/>
-                <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Diagnóstico</h3>
-              <p>Al inicio del curso se realiza un quiz para valorar los preliminares.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-                <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/>
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Orientación</h3>
-              <p>Se guiará durante todo el proceso de admisión al estudiante.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Consejos</h3>
-              <p>Tanto para resolución de problemas como para gestión de emociones.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3" viewBox="0 0 16 16">
-                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                <path d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z"/>
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Simulacros</h3>
-              <p>Se realizan dos simulacros durante el curso para evaluar el avance.</p>
-            </div>
-          </div>
+          </div><!-- End Stats Item -->
+
         </div>
-        <h2 class="pb-5 border-top"></h2>
-    </div>
+
+      </div>
+    </section><!-- Fin contador -->
 
 
 
@@ -319,113 +261,377 @@
 
 
 
-
-
-
-
-
-
-    <!-- Detalles del curso -->
-    <div class="container px-4 py-0">
-        <h2 class="text-center shadow-text" style="font-size: 40px; font-weight: bold;" >Nuestro curso - Vamos a la U</h2>
     
-        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
-          <div class="col d-flex flex-column align-items-start gap-2">
-            <h2 class="fw-bold text-body-emphasis">¡No te quedes sin matricular y asegurar tu futuro profesional!</h2>
-            <p class="text-body-secondary">Nuestro curso está pensado para cubrir las necesidades de las personas de todo el país (y del mundo) que desean aplicar el Examen de Admisión a las universidades públicas (UCR/UNA y TEC).</p>
-            <a href="cursos.html" class="btn btn-primary btn-lg">Obtener curso</a>
+
+
+    <!-- ======= Nuestro curso - No te quedes sin matricular ======= -->
+    <section id="about" class="about" style="color: #212529; padding: 60px 0;overflow: clip;">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <h3 style="font-weight: bold;">Nuestro curso - Vamos a la U</h3>
+            <h2>¡No te quedes sin matricular y asegurar tu futuro profesional!</h2>
+            <p>Nuestro curso está pensado para cubrir las necesidades de las personas de todo el país (y del mundo) que desean aplicar el Examen de Admisión a las universidades públicas (UCR/UNA y TEC).</p>
+            <a href="cursos.html" class="btn btn-primary btn-lg read-more"><span>Obtener curso</span><i class="bi bi-arrow-right"></i></a>
           </div>
-    
-          <div class="col">
-            <div class="row row-cols-1 row-cols-sm-2 g-4">
-              <div class="col d-flex flex-column gap-2">
-                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/>
-                  </svg>
-                </div>
-                <h4 class="fw-semibold mb-0 text-body-emphasis">Acceso completo</h4>
-                <p class="text-body-secondary">A todo el material del curso y la grabación de todas las clases.</p>
-              </div>
 
-              <div class="col d-flex flex-column gap-2">
-                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
-                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
-                  </svg>
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <i class="bi bi-camera-video"></i>
+                  <h3>Acceso completo</h3>
+                  <p>A todo el material del curso, las clases en vivo, así como la grabación de todas las clases.</p>
                 </div>
-                <h4 class="fw-semibold mb-0 text-body-emphasis">Evacuación de dudas</h4>
-                <p class="text-body-secondary">Sesiones adicionales donde se pueden evacuar todas las dudas adicionales.</p>
-              </div>
-    
-              <div class="col d-flex flex-column gap-2">
-                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-columns-gap" viewBox="0 0 16 16">
-                    <path d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z"/>
-                 </svg>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-people"></i>
+                  <h3>Evacuación de dudas</h3>
+                  <p>Sesiones adicionales donde se pueden evacuar todas las dudas adicionales que surjan.</p>
                 </div>
-                <h4 class="fw-semibold mb-0 text-body-emphasis">Abordaje integral</h4>
-                <p class="text-body-secondary">Se prepara en razonamiento, orientación vocacional y gestión de estrés.</p>
-              </div>
-    
-              <div class="col d-flex flex-column gap-2">
-                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
-                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/>
-                  </svg>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-columns-gap"></i>
+                  <h3>Abordaje integral</h3>
+                  <p>Se prepara en razonamiento, orientación vocacional y gestión de estrés.</p>
                 </div>
-                <h4 class="fw-semibold mb-0 text-body-emphasis">Cobertura global</h4>
-                <p class="text-body-secondary">Por ser un curso telepresencial, se puede acceder en cualquier parte del mundo.</p>
-              </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-globe-americas"></i>
+                  <h3>Cobertura global</h3>
+                  <p>Por ser un curso telepresencial, se puede acceder en cualquier parte del mundo.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
             </div>
           </div>
+
         </div>
       </div>
-    </main>
 
-    <div class="b-example-divider"></div>
-
+    </section><!-- End Nuestro curso - No te quedes sin matricular -->
 
 
 
 
 
 
-
-
-
-
-    <div class="sections-container">
-        <!-- Información sobre el Examen de Admisión -->
-        <section class="content-section">
-            <h2>Información sobre el Examen de Admisión</h2>
-            <p>Obtén toda la información que necesitas para enfrentar con éxito el examen de admisión. Aprende sobre las fechas clave, los requisitos de inscripción y cómo prepararte eficazmente para afrontar el desafío.</p>
-            <div class="creative-element">
-                <img src="imgs/icon-info.png" alt="Icono de Información">
-                <p>Descubre consejos y estrategias para una preparación efectiva.</p>
+        <!-- ======= Alianzas ======= -->
+        <section id="alianzas" class="alianzas">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="section-title">
+              <h2>Alianzas</h2>
+              <p>En <i>Vamos a la U</i> creemos en la fuerza de la colaboración para potenciar el éxito educativo. Nos enorgullece contar con alianzas educativas sólidas con destacados colegios que comparten nuestra visión de excelencia académica. Estas alianzas reflejan nuestro compromiso compartido de brindar a los estudiantes las herramientas y el apoyo necesario para alcanzar sus metas académicas. Juntos, estamos construyendo un camino hacia el éxito universitario. Descubre nuestras valiosas alianzas que incluyen descuentos, becas y muchos beneficios más.<br>¡Únete a la comunidad educativa de <i>Vamos a la U</i>!</p>
             </div>
-        </section>
-
-        <!-- Testimonios y Éxito -->
-        <section class="content-section">
-            <h2>Testimonios y Éxito</h2>
-            <p>Descubre las historias inspiradoras de estudiantes que utilizaron nuestra plataforma de preparación y lograron ingresar a las universidades de sus sueños. Conoce sus experiencias, desafíos y triunfos.</p>
-            <div class="creative-element">
-                <img src="imgs/icon-success.png" alt="Icono de Éxito">
-                <p>Lee testimonios de estudiantes que alcanzaron sus metas académicas.</p>
+    
+            <div class="row no-gutters alianzas-wrap clearfix" data-aos="fade-up">
+    
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="alianzas-logo">
+                  <img src="imgs/alianzas/client-1.png" class="img-fluid" alt="">
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="alianzas-logo">
+                  <img src="imgs/alianzas/client-2.png" class="img-fluid" alt="">
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="alianzas-logo">
+                  <img src="imgs/alianzas/client-3.png" class="img-fluid" alt="">
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="alianzas-logo">
+                  <img src="imgs/alianzas/client-4.png" class="img-fluid" alt="">
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="alianzas-logo">
+                  <img src="imgs/alianzas/client-5.png" class="img-fluid" alt="">
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="alianzas-logo">
+                  <img src="imgs/alianzas/client-6.png" class="img-fluid" alt="">
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="alianzas-logo">
+                  <img src="imgs/alianzas/client-7.png" class="img-fluid" alt="">
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="alianzas-logo">
+                  <img src="imgs/alianzas/client-8.png" class="img-fluid" alt="">
+                </div>
+              </div>
+    
             </div>
-        </section>
 
-        <!-- Noticias y Actualizaciones -->
-        <section class="content-section">
-            <h2>Noticias y Actualizaciones</h2>
-            <p>Mantente al día con las últimas noticias y actualizaciones relacionadas con los exámenes de admisión y el mundo educativo. Obtén información valiosa sobre cambios en los exámenes, nuevas oportunidades y más.</p>
-            <div class="creative-element">
-                <img src="imgs/icon-news.png" alt="Icono de Noticias">
-                <p>Infórmate sobre las novedades y tendencias en el ámbito educativo.</p>
+            <div class="section-title mt-md-5">
+              <p>Si tu colegio no se encuentra acá, te invitamos a explorar las oportunidades de formar parte de nuestra red educativa en <i>Vamos a la U</i>. Estamos abiertos a nuevas colaboraciones que fortalezcan el camino hacia el éxito universitario, puedes consultar por lo beneficios de ser parte de esta gran alianza educativa.<br>¡Únete a nosotros y hagamos crecer juntos el potencial académico de cada estudiante!"</p>
             </div>
-        </section>
-    </div>
+    
+          </div>
+        </section><!-- End Alianzas Section -->
+
+
+
+
+
+
+    <!-- ======= Beneficios ======= -->
+    <section id="beneficios" class="beneficios section-bginclinada">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Beneficios</h2>
+          <p style="color: #333333;">En <i>Vamos a la U</i>, no solo nos esforzamos por brindar una educación de calidad, sino que también celebramos tus logros excepcionales. Sabemos que la preparación para los exámenes de admisión puede ser desafiante, y queremos hacerla más gratificante para quienes se destacan. Ofrecemos diversas oportunidades y premios para inspirarte y motivarte a alcanzar tu máximo potencial, elevando así tu experiencia educativa y preparándote para el éxito académico y profesional.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-briefcase"></i>
+              <h4><a>Estudiante destacado</a></h4>
+              <p>Se otorgará un extraordinario premio en efectivo de ₡100,000 al estudiante de Vamos a la U que alcance el mejor promedio en las pruebas de admisión.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-card-checklist"></i>
+              <h4><a>Becas</a></h4>
+              <p>Hasta un 50% de descuento para 2 familiares o amigos de aquel estudiante de Vamos a la U que obtenga la mejor nota en las pruebas de admisión.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-bar-chart"></i>
+              <h4><a>Certificado</a></h4>
+              <p>Vamos a la U otorgará un certificado físico a aquel estudiante de la academia que obtenga el el mejor promedio de admisión.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-binoculars"></i>
+              <h4><a>Sorteo</a></h4>
+              <p>Dos premios de ₡50,000 cada uno entre todos los estudiantes que obtengan más de 700 puntos en el promedio de admisión.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-title mt-md-5" data-aos="fade-up" data-aos-delay="700">
+          <p style="color: #333333;">En cada paso de tu viaje educativo, queremos que sientas el respaldo constante de nuestra academia. Descubre cómo superar tus límites y ser recompensado por tus esfuerzos. ¡Tu éxito es nuestro logro, y estamos emocionados de acompañarte en este emocionante viaje académico!</p>
+        </div>
+
+      </div>
+    </section><!-- End Beneficios Section -->
+
+
+
+
+
+
+        <!-- ======= F.A.Q Section ======= -->
+        <section id="faq" class="faq">
+          <div class="container-fluid" data-aos="fade-up">
+    
+            <div class="row gy-4">
+    
+              <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+    
+                <div class="content px-xl-5">
+                  <h3>Preguntas <strong>Frecuentes</strong></h3>
+                  <p>
+                    Estas son algunas de las preguntas que frecuentamente contestamos, si tienes más dudas no dudes en contactarnos y con gusto te atenderemos
+                  </p>
+                </div>
+    
+                <div class="accordion accordion-flush px-xl-5" id="faqlist">
+    
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                        <i class="bi bi-question-circle question-icon"></i>
+                        ¿Cómo puedo prepararme para el examen de admisión?
+                      </button>
+                    </h3>
+                    <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                      <div class="accordion-body">
+                        La mejor manera de prepararse para el examen es tomar un curso de preparación. Los cursos de preparación le brindarán los conocimientos y las habilidades que necesita para tener éxito en el examen.
+                      </div>
+                    </div>
+                  </div><!-- # Faq item-->
+    
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                        <i class="bi bi-question-circle question-icon"></i>
+                        ¿Qué tipo de cursos ofrecen?
+                      </button>
+                    </h3>
+                    <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                      <div class="accordion-body">
+                        Ofrecemos cursos de preparación para el examen de admisión a las universidades estatales abarcando las siguientes áreas:<br>
+                        * Razonamiento lingüístico-verbal<br>
+                        * Razonamiento lógico-matemático<br>
+                        Nuestros cursos están diseñados para cubrir las dos áreas que se incluyen en el examen de admisión.
+                      </div>
+                    </div>
+                  </div><!-- # Faq item-->
+    
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                        <i class="bi bi-question-circle question-icon"></i>
+                        ¿Ofrecen cursos en línea? ¿Cuál es el horario de los cursos?
+                      </button>
+                    </h3>
+                    <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                      <div class="accordion-body">
+                        Ofrecemos cursos telepresenciales, es decir, virtuales en tiempo real, se ofrecen a través de la plataforma de videollamada. Al ser cursos telepresenciales, se ofrecen en horarios flexibles para adaptarse a las necesidades de los estudiantes.
+                      </div>
+                    </div>
+                  </div><!-- # Faq item-->
+    
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                        <i class="bi bi-question-circle question-icon"></i>
+                        ¿Qué tipo de actividades extracurriculares y apoyo académico ofrecen?
+                      </button>
+                    </h3>
+                    <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                      <div class="accordion-body">
+                        <i class="bi bi-question-circle question-icon"></i>
+                        Ofrecemos las siguientes actividades extracurriculares y tipos de apoyo académico:<br>
+                        * Grupos de estudio<br>
+                        * Tutorías<br>
+                        * Atención personalizada<br>
+                        * Recursos en línea
+                      </div>
+                    </div>
+                  </div><!-- # Faq item-->
+    
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                        <i class="bi bi-question-circle question-icon"></i>
+                        ¿Cuál es el costo de los cursos?, ¿Cómo puedo inscribirme ¿Qué materiales de estudio incluyen los cursos?
+                      </button>
+                    </h3>
+                    <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                      <div class="accordion-body">
+                        El costo de los cursos varía según el tipo de curso o paquete que se adquiera. Para obtener más detalle de cada paquete, visite la sección de cursos en nuestro sitio web. En dicha sección, puede inscribirse en nuestros cursos completando el formulario de inscripción. También puede ponerse en contacto con nosotros para obtener más información. Todos los cursos incluyen los siguientes materiales de estudio:<br>
+                        * Cuenta para ingresar a la plataforma de estudio<br>
+                        * Quizes diagnóstico<br>
+                        * Simulacros de examen<br>
+                        * Material en línea<br><br>
+                        Además, el curso premium incluye:<br>
+                        * Libro de texto físico<br>
+                        * Cuaderno de ejercicios
+                      </div>
+                    </div>
+                  </div><!-- # Faq item-->
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="700">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-6">
+                        <i class="bi bi-question-circle question-icon"></i>
+                        ¿Ofrecen becas o descuentos?
+                      </button>
+                    </h3>
+                    <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                      <div class="accordion-body">
+                        Sí, ofrecemos becas y descuentos para estudiantes que califiquen. Para obtener más información, visite nuestro sitio web o comuníquese con nosotros.
+                      </div>
+                    </div>
+                  </div><!-- # Faq item-->
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="800">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-7">
+                        <i class="bi bi-question-circle question-icon"></i>
+                        ¿Quiénes son sus profesores?
+                      </button>
+                    </h3>
+                    <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                      <div class="accordion-body">
+                        Nuestros profesores son profesionales en el área con amplia experiencia en la enseñanza y la preparación para exámenes. Están altamente calificados y están comprometidos a ayudar a los estudiantes a alcanzar sus objetivos académicos.
+                      </div>
+                    </div>
+                  </div><!-- # Faq item-->
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="900">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-8">
+                        <i class="bi bi-question-circle question-icon"></i>
+                        ¿Qué carreras han obtenido los estudiantes que han tomado sus cursos?
+                      </button>
+                    </h3>
+                    <div id="faq-content-8" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                      <div class="accordion-body">
+                        Los estudiantes que han tomado nuestros cursos han obtenido una amplia gama de carreras, incluyendo:<br>
+                        * Medicina<br>
+                        * Ingeniería<br>
+                        * Derecho<br>
+                        * Negocios<br>
+                        * Ciencias<br>
+                        * Educación
+                      </div>
+                    </div>
+                  </div><!-- # Faq item-->
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="1000">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-9">
+                        <i class="bi bi-question-circle question-icon"></i>
+                        ¿Cómo puedo ponerme en contacto con ustedes?
+                      </button>
+                    </h3>
+                    <div id="faq-content-9" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                      <div class="accordion-body">
+                        Puede ponerse en contacto con nosotros a través de nuestro sitio web, nuestras redes sociales, correo electrónico o WhatsApp.
+                      </div>
+                    </div>
+                  </div><!-- # Faq item-->
+    
+                </div>
+    
+              </div>
+    
+              <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("imgs/faq.jpg");'>&nbsp;</div>
+            </div>
+    
+          </div>
+        </section><!-- End F.A.Q Section -->
+
+
+
+
+
+    <!-- <div class="b-example-divider"></div> -->
+
+
+
 
 
 
@@ -439,7 +645,7 @@
 
     <!-- Botón flotante de WhatsApp -->
     <div id="whatsapp-float" class="whatsapp-float">
-        <a id="whatsapp-link" class="whatsapp-icon" href="wa.me/50684703754" target="_blank">
+        <a id="whatsapp-link" class="whatsapp-icon" href="https://wa.me/50684703754" target="_blank">
             <img src="imgs/whatsapp-icon.png" alt="WhatsApp">
         </a>
     </div>
@@ -508,11 +714,11 @@
 
 
     <!-- Pie depágina -->
-    <footer class="bg-primary text-center text-white">
+    <footer class="bg-primary text-center text-white" style="margin-top: auto!important;">
         <!-- Grid container -->
-        <div class="container p-4 pb-0">
+        <div class="container p-1 pb-0">
           <!-- Section: Social media -->
-          <section class="mb-4">
+          <section class="mb-1" style="padding: 1% 1%;">
             <!-- Facebook -->
             <a
               class="btn text-white btn-floating m-1"
@@ -571,19 +777,22 @@
         <!-- Grid container -->
       
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center" style="background-color: rgba(0, 0, 0, 0.2); padding: 1% 1%;">
           © 2023 Vamos a la U. Todos los derechos reservados.
         </div>
         <!-- Copyright -->
       </footer>
-   
+
 <!-- Vincula la biblioteca jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <!-- Vincula la biblioteca aos -->
 <script src="aos/aos.js"></script>
 <script src="aos/glightbox.min.js"></script>
+<script src="aos/purecounter_vanilla.js"></script>
 <script src="aos/swiper-bundle.min.js"></script>
+<script src="aos/typed.umd.js"></script>
+<script src="aos/main.js"></script>
 
 <!-- Vincula el archivo JavaScript de Bootstrap -->
 <script src="js/bootstrap.min.js"></script>
